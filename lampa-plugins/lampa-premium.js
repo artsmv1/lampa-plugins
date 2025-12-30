@@ -74,6 +74,8 @@
 
       return originalSend.apply(this, arguments);
     };
+
+    Lampa.Account.updateUser();
   }
 
   function startPlugin() {

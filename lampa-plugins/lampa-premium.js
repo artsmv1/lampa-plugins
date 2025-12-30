@@ -28,7 +28,7 @@
   //   });
   // }
 
-  function startPlugin() {
+  function pluginXYZ() {
     var EXPIRE_PREMIUM = 1000 * 60 * 60 * 24 * 10;
 
     var originalOpen = XMLHttpRequest.prototype.open;
@@ -95,7 +95,7 @@
       Lampa.Storage.set('plugins', plugins);
     }
 
-    startPlugin();
+    pluginXYZ();
   } /* startPlugin() */
 
   if (!window.plugin_____remove_ad) startPlugin();
